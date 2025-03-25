@@ -1,4 +1,4 @@
 As for the changes to the filter itself:
-`www.youtube.com##ytd-comment-view-model:has(div > div > ytd-expander > div > yt-attributed-string > span:has-text(/(.@.*)?((うん、)?(で|だから)|(なに|何))([\?？])$/))`
+www.youtube.com##ytd-comment-view-model:has(div > div > ytd-expander > div > yt-attributed-string > span:has-text(/(.@.*)?((うん、)?(で|だから)|(なに|何))([\?？])$/))
 to
-`www.youtube.com##ytd-comment-view-model:has(div > div > ytd-expander > div > yt-attributed-string > span:has-text(/(.@.*)?(で|だから)(なに|何)?([\?？])$/))`
+www.youtube.com##ytd-comment-view-model:has(div > div > ytd-expander > div > yt-attributed-string > span:has-text(/(.@.*)?(で|だから)(なに|何)?([\?？])$/))
