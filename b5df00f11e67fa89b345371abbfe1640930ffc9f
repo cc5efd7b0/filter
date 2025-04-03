@@ -1,0 +1,2 @@
+I noticed that [0-9０-９] works in PCRE2 but isn't correctly recognized in ECMAScript, so I changed it to [\d０-９].
+Also, I made the title a bit more concise.
