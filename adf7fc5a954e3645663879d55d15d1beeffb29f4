@@ -2,3 +2,6 @@ I could apply the same restriction—limiting to spans directly under yt-attribu
 However, there are rare cases where a user sets their ID to something resembling a spam comment
 (even though the actual comment is legitimate), likely with the intent to mislead others. For now, I’ll leave it as is.
 It’s a difficult decision.
+
+25/04/05 03:12
+Upon further consideration, it seems that examples of usernames containing spam-like content are limited, so let's make the former rule :has(span:has-text()), and apply :has(yt-attributed-string > span:has-text()) for the rest.
