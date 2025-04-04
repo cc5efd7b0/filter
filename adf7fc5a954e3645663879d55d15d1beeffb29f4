@@ -1,0 +1,4 @@
+I could apply the same restriction—limiting to spans directly under yt-attributed-string—for the remaining rules as well.
+However, there are rare cases where a user sets their ID to something resembling a spam comment
+(even though the actual comment is legitimate), likely with the intent to mislead others. For now, I’ll leave it as is.
+It’s a difficult decision.
