@@ -4,4 +4,6 @@ However, there are rare cases where a user sets their ID to something resembling
 It’s a difficult decision.
 
 25/04/05 03:12
-Upon further consideration, it seems that examples of usernames containing spam-like content are limited, so let's make the former rule :has(span:has-text()), and apply :has(yt-attributed-string > span:has-text()) for the rest.
+Upon further consideration, it seems that examples of usernames containing spam-like content are limited,
+so let's restrict it to a few rules that are likely to be included in usernames and apply :has(span:has-text()) for those,
+while using :has(yt-attributed-string > span:has-text()) for the rest.
